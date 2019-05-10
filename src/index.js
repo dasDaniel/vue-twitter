@@ -1,11 +1,11 @@
-import twitter from './twttr.vue'
+import Twitter from './twttr.vue'
 
 export default {
   install: function (Vue) {
-    Vue.component('twitter', twitter)
+    Vue.component('twitter', Twitter)
   }
 }
 
 export {
-  twitter
+  Twitter
 }
